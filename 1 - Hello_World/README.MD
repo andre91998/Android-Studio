@@ -40,6 +40,8 @@ Your app project has many files, here are the most important ones for you to und
 
 After forking or downloading this repository, in the "Welcome to Android Studio" window, select the second option: "Open an Existing Android Studio Project", and then select the correct path for the project on your computer.
 
+You can also just select "Start a new Android Studio Project" because Android Studio generates a "Hello World" app as a default new project. If you do this, select "Empty Activity" in the "Choose your project" window.
+
 #### Running on your Android Device
 
 * Set up your Device
