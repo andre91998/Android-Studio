@@ -4,9 +4,9 @@ This repository is meant to make learning to create apps for android devices wit
 
 Observation: The Android Studio IDE offers the possibility of creating apps in Java or Kotlin. This tutorial will be in Java. Therefore it is better if you are already accustumed to the Java language. If you are not, I suggest going through one of the following tutorials:
 
-    https://www.tutorialspoint.com/java/java_basic_syntax.htm
+   https://www.tutorialspoint.com/java/java_basic_syntax.htm
 
-    https://www.w3schools.com/java/
+   https://www.w3schools.com/java/
 
 ## Android Studio Install 
 
