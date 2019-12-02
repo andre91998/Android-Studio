@@ -22,13 +22,37 @@ Your app project has many files, here are the most important ones for you to und
 
 * app > java > com.example.myfirstapp > MainActivity
 
+    This is the main activity. It's the entry point for your app. When you build and run your app, the system launches an instance of this Activity and loads its layout.
+
 * app > res > layout > activity_main.xml
+
+    This XML file defines the layout for the activity's user interface (UI). It contains a TextView element with the text "Hello, World!"
 
 * app > manifests > AndroidManifest.xml
 
+    The manifest file describes the fundamental characteristics of the app and defines each of its components.
+
 * Gradle Scripts > build.gradle
+
+    There are two files with this name: one for the project, "Project: My First App," and one for the app module, "Module: app." Each module has its own build.gradle file, but this project currently has just one module. Use each module's build.file to control how the Gradle plugin builds your app. For more information about this file, see Configure your build.
 
 ## Running your first App
 
 After forking or downloading this repository, in the "Welcome to Android Studio" window, select the second option: "Open an Existing Android Studio Project", and then select the correct path for the project on your computer.
 
+#### Running on your Android Device
+
+* Set up your Device
+    * Connect your device to your development machine with a USB cable. If you developed on Windows, you might need to install the appropriate USB driver for your device.
+    * Perform the following steps to enable USB debugging in the Developer options window:
+        * Open the Settings app.
+        * If your device uses Android v8.0 or higher, select System. Otherwise, proceed to the next step.
+        * Scroll to the bottom and select About phone.
+        * Scroll to the bottom and tap Build number seven times.
+        * Return to the previous screen, scroll to the bottom, and tap Developer options.
+        * In the Developer options window, scroll down to find and enable USB debugging.
+
+* Running the App on your Device:
+    * In Android Studio, select your app from the run/debug configurations drop-down menu in the toolbar.
+    * In the toolbar, select the device that you want to run your app on from the target device drop-down menu.
+    * Click **Run**: Android Studio then installs your app on your connected device and starts it.
