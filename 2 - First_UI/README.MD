@@ -26,7 +26,7 @@ For our first User Interface, we're going to build a simple app that accepts a m
 
 * The **Design Editor** in the center is where things can be easily edited. At the top of this section you have a *toolbar* which presents the following sections:
   * Top Row:
-    * **Select Design Surface**: for selecting whether you want to view the *blueprint*, the *design*, or both.
+    * **Select Design Surface**: for selecting whether you want to view the *blueprint* (for editing position and constraints), the *design* (for previewing the app), or both.
     * **Orientation for Preview**: for selecting whether you are working with *portrait*, *landscape*, or both.
     * **Device for Preview**: for selecting screen configurations based on the device you are using for testing.
     * **API Version for Preview**: for setting the API you want to use (will probably be automatically set to the best possible API).
@@ -49,7 +49,19 @@ First, lets set the Layout Editor to the desired configurations:
 
 Now, lets design the Main Activity (your app's home page):
 
-1.
+1. Add a **Text Box**:
+   1. First, you need to remove what's already in the layout. Click **TextView** in the **Component Tree panel** and then press the *Delete* key.
+   2. In the **Palette panel**, click **Text** to show the available text controls.
+   3. Drag the **Plain Text** into the **design editor** and drop it near the top of the layout. This is an EditText widget that accepts plain text input.
+   4. Click the view in the design editor. You can now see the *square handles* to *resize the view* on each corner, and the *circular constraint anchors* on each side. For better control, you might want to zoom in on the editor. To do so, use the Zoom buttons in the Layout Editor toolbar.
+   5. Click and hold the anchor on the top side, drag it up until it snaps to the top of the layout, and then release it. That's a contraint: it constrains the view within the default margin that was set. In this case, you set it to 16 dp from the top of the layout.
+   6. Use the same process to create a constraint from the left side of the view to the left side of the layout.
+
+2. Add a **Button**
+   1. In the **Palette panel**, click Buttons.
+   2. Drag the **Button widget** into the design editor and drop it near the right side.
+   3. Create a *constraint* from the left side of the button to the right side of the text box.
+   4. To constrain the views in a horizontal alignment, create a constraint between the text baselines. To do so, right click the *button component* in the **Component Tree panel** and select *Show Baseline*. The baseline anchor appears inside the button. Click and hold this anchor, and then drag it to the baseline anchor that appears in the text box.
 
 ## App Functionality (Part 1)
 
