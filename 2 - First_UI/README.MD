@@ -35,7 +35,7 @@ For our first User Interface, we're going to build a simple app that accepts a m
     * **Autoconnection to Parent**: When turned on, it automatically creates two or more constraints for each view as you add them to the layout, but only when appropriate to constrain the view to the parent layout.
     * **Default Margins**: for defining the margin between the edge of the device screen and your views
 
-## App Layout (Part 1)
+## Build the App Layout - Part 1
 
 First, lets set the Layout Editor to the desired configurations:
 
@@ -68,8 +68,8 @@ If you select **design** to preview the app (as mentioned in the Layout Editor E
 3. Change UI **Strings**
    1. 
 
-## App Functionality (Part 1)
+## Program App Functionality - Part 1
 
-## App Layout (Part 2)
+## Build App Layout - Part 2
 
-## App Functionality (Part2)
+## Program App Functionality - Part2
