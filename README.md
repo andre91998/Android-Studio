@@ -14,3 +14,5 @@ Download Android Studio from this link:
 
 https://developer.android.com/studio#downloads
 
+This lesson assumes that you use Android Studio v3.0 or higher
+
