@@ -1,5 +1,7 @@
 # Building your First User Interface
 
+As done in the first lesson, open a new Android Studio Project.
+
 ## Important Concepts
 
 * The user interface (UI) for an Android app is built as a hierarchy of layouts and widgets:
@@ -66,7 +68,10 @@ Now, lets design the Main Activity (your app's home page):
 If you select **design** to preview the app (as mentioned in the Layout Editor Explained Section), you will see that the text input and button label are set to default values. So now we should set them to what we want:
 
 3. Change UI **Strings**
-   1. 
+   1. Open the **Project** window and then open **app > res > values > strings.xml**.
+   2. Click **Open editor** at the top of the window. This opens the **Translations Editor**, which provides a simple interface to add and edit your default strings. It also helps you keep all of your translated strings organized.
+   3. Click **Add Key**  to create a new string as the "hint text" for the text box.
+      1. 
 
 ## Program App Functionality - Part 1
 
