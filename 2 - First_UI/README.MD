@@ -16,7 +16,7 @@
 
 For our first User Interface, we're going to build a simple app that accepts a message, has a button to send the message, and displays the message that is sent.
 
-## The Layout Editor Sections
+## The Layout Editor Explained
 
 * The **Palette** panel at on the top left presents the available default objects that can be easily placed in your *blueprint* by dragging and dropping
 
@@ -62,6 +62,11 @@ Now, lets design the Main Activity (your app's home page):
    2. Drag the **Button widget** into the design editor and drop it near the right side.
    3. Create a *constraint* from the left side of the button to the right side of the text box.
    4. To constrain the views in a horizontal alignment, create a constraint between the text baselines. To do so, right click the *button component* in the **Component Tree panel** and select *Show Baseline*. The baseline anchor appears inside the button. Click and hold this anchor, and then drag it to the baseline anchor that appears in the text box.
+
+If you select **design** to preview the app (as mentioned in the Layout Editor Explained Section), you will see that the text input and button label are set to default values. So now we should set them to what we want:
+
+3. Change UI **Strings**
+   1. 
 
 ## App Functionality (Part 1)
 
